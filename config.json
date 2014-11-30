@@ -1,0 +1,56 @@
+{
+  "locations" : {
+
+    "pdf-input" : "../data/pdf/0-input/",
+
+    "pdf-extraction" : {
+
+      "asHTML" : "../data/pdf/1-html/",
+
+      "asText" : "../data/pdf/2-as-text",
+
+      "asData" : "../data/pdf/2-as-data",
+
+      "asEscapedText": "../data/pdf/3-escaped",
+
+      "asJATS" : "../data/pdf/2-as-JATS/"
+    },
+
+    "JATS-input" : {
+      "input" : "eLife-JATS/0-input",
+      "formatted" : "eLife-JATS/1-formatted",
+      "styled" : "eLife-JATS/2-styled"
+    },
+
+    "ready-for-semantic" : {
+
+      "from-pdf" : "../data/ready-for-semantic/from-pdf/",
+
+      "from-eLife" : "../data/ready-for-semantic/from-eLife/"
+    },
+
+    "ldb" : "ldb/Normalized from July 24 2014 database - Markers - filtered - take 1.csv",
+
+    "semantic-output": "../data/semantic-output"
+
+  },
+
+  "http-services" : {
+    "pdfExtractor" : {
+      "host": "localhost",
+      "port": "3000"
+    },
+    "semanticProcessor" : {
+      "host": "localhost",
+      "port": "3001"
+    },
+    "fileManipulator" : {
+      "host": "localhost",
+      "port": "3200"
+    },
+    "diffProcessor" : {
+      "host": "localhost",
+      "port": "3100"
+    }
+  }
+}
