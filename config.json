@@ -29,7 +29,7 @@
       "from-eLife" : "../data/ready-for-semantic/from-eLife/"
     },
 
-    "ldb" : "ldb/Normalized from July 24 2014 database - Markers - filtered - take 1.csv",
+    "ldb" : "ldb/Normalized from July 24 2014 database - Dec 1.csv",
 
     "semantic-output": "../data/semantic-output"
 
