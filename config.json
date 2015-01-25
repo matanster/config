@@ -17,9 +17,9 @@
     },
 
     "JATS-input" : {
-      "input" : "eLife-JATS/0-input",
-      "formatted" : "eLife-JATS/1-formatted",
-      "styled" : "eLife-JATS/2-styled"
+      "input" : "../data/eLife-JATS/0-input",
+      "formatted" : "../data/eLife-JATS/1-formatted",
+      "styled" : "../data/eLife-JATS/2-styled"
     },
 
     "ready-for-semantic" : {
@@ -29,7 +29,7 @@
       "from-eLife" : "../data/ready-for-semantic/from-eLife/"
     },
 
-    "ldb" : "ldb/Normalized from July 24 2014 database - Dec 1.csv",
+    "ldb" : "ldb/Normalized from July 24 2014 database - Dec 30 - plus Jan tentative addition.csv",
 
     "semantic-output": "../data/semantic-output"
 
